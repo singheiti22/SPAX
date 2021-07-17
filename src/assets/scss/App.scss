@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-x: scroll;
+}
+
+.credit-card-details {
+  position: absolute;
+  width: 660px;
+  background-color: white;
+  box-shadow: 0px 5px 24px #231f04;
+  margin-top: 17%;
+  margin-left: 27%;
+  border-radius: 12px;
+  text-align: initial;
+  padding: 11% 40px 40px 40px;
+}
+.expiration-label {
+  font-size: 14px;
+  font-family: revert;
+  color: dimgrey;
+  font-weight: 600;
+}
+
+.input-field {
+  .label {
+    font-size: 14px;
+    font-family: revert;
+    margin-bottom: 4px;
+    color: dimgrey;
+    font-weight: 600;
+  }
+  input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    padding-left: 20px;
+  }
+  input:active {
+    border: 1px solid skyblue;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+.float-xl-left {
+  float: left;
+}
+.float-xl-right {
+  float: right;
+}
+
+.submit-button {
+  width: 103%;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
+  font-size: 23px;
+  box-shadow: 0px 0px 5px #231f04;
+}
+
+.ml-70 {
+  margin-left: 132px;
+}
+
+.back-side {
+  .black-strip {
+    margin-top: 7%;
+    position: absolute;
+    z-index: 100000;
+    width: 34.7%;
+    height: 45px;
+    background-color: black;
+    margin-left: 35%;
+  }
+  .label {
+    z-index: 100000;
+    margin-top: 11%;
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    margin-left: 65%;
+    font-weight: bolder;
+    font-size: 21px;
+  }
+  .cvv {
+    z-index: 100000;
+    margin-top: 13%;
+    margin-left: 37%;
+    background-color: white;
+    font-family: monospace;
+    position: absolute;
+    padding: 15px 5px;
+    text-align: end;
+    width: 30%;
+    border-radius: 4px;
+    min-height: 20px;
+  }
+  .logo {
+    z-index: 100000;
+    margin-top: 18%;
+    margin-left: 63%;
+    position: absolute;
+  }
+}
+.image {
+  .credit-card-image {
+    margin-left: -15%;
+    width: 500px;
+    margin-top: 4%;
+    border-radius: 12px;
+    height: 300px;
+    z-index: 100000;
+    position: absolute;
+  }
+  .chip-image {
+    margin-top: 6%;
+    position: absolute;
+    z-index: 100000;
+    width: 64px;
+    margin-left: -13%;
+  } 
+  .card-type-image {
+    margin-top: 6%;
+    position: absolute;
+    z-index: 100000;
+    width: 64px;
+    margin-left: 13%;
+  }
+  .card-number {
+    font-size: 30px;
+    position: absolute;
+    z-index: 100000;
+    margin-top: 13%;
+    color: white;
+    margin-left: 37%;
+    font-weight: bolder;
+  }
+  .card-holder-name {
+    font-size: 15px;
+    position: absolute;
+    z-index: 100000;
+    margin-top: 20%;
+    color: white;
+    margin-left: 37%;
+    font-weight: bolder;
+  }
+  .expiry {
+    font-size: 15px;
+    position: absolute;
+    z-index: 100000;
+    margin-top: 20%;
+    color: white;
+    margin-left: 63%;
+    font-weight: bolder;
+  }
+  .heading {
+    font-family: monospace;
+    margin-bottom: 7px;
+  }
+  .data {
+    position: absolute;
+  }
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.arrow-down {
+  border: 1px solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.dropdown {
+  .main {
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    padding: 10px 20px 10px 20px;
+    width: 127%;
+    height: 22px;
+    .icon {
+      float: right;
+    }
+  }
+  .options {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 24px #231f04;
+    width: 20%;
+    text-align: center;
+    .option {
+      border-bottom: 1px solid dimgrey;
+      color: grey;
+    }
+    .option:hover {
+      color: blue;
+      background-color: lightblue;
+    }
+  }
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
